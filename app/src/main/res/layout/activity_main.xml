@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_iv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="Hello World!" />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/url_rt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入图片地址"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:text="搜索"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:textColor="#E90909"
+        android:id="@+id/open_camera_btn"
+        android:text="随便试试(禁止公共场合看哦~)"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
